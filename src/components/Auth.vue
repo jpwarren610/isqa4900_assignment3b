@@ -6,7 +6,7 @@
           <v-card-title>
             <span class="headline">Login</span>
           </v-card-title>
-          <v-alert v-if="showMsg === 'error'"
+          <v-alert class="white--text" color="red darken-4" v-if="showMsg === 'error'"
               dismissible
               close-icon="mdi-close-circle"
               :value="true"
