@@ -45,8 +45,8 @@
                       required
                     />
                   </v-container>
-                  <v-btn v-if="!isUpdate" class="blue white--text" @click="createMovie">Save</v-btn>
-                  <v-btn v-if="isUpdate" class="blue white--text" @click="updateMovie">Update</v-btn>
+                  <v-btn v-if="!isUpdate" class="white--text" color="red darken-4" @click="createMovie">Save</v-btn>
+                  <v-btn v-if="isUpdate" class="white--text" color="red darken-4" @click="updateMovie">Update</v-btn>
                   <v-btn class="white black--text" @click="cancelOperation">Cancel</v-btn>
                 </v-form>
               </v-card-text>

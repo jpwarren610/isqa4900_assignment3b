@@ -1,7 +1,7 @@
   <template>
   <v-app>
-    <v-app-bar app color="orange">
-      <v-toolbar-title >My Favorite Movies</v-toolbar-title>
+    <v-app-bar app color="red darken-4">
+      <v-toolbar-title class="white--text">My Favorite Movies</v-toolbar-title>
       <v-spacer></v-spacer>
       <div class="hidden-xs-only">
         <v-btn

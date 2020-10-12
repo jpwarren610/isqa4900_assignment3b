@@ -53,7 +53,7 @@
                   @click:append="showPassword = ! showPassword"
                 />
               </v-container>
-              <v-btn class="info" :disabled="!valid" @click="login">Login</v-btn>
+              <v-btn class="white--text" color="red darken-4":disabled="!valid" @click="login">Login</v-btn>
             </v-form>
           </v-card-text>
         </v-card>

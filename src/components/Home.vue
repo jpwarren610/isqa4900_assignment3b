@@ -36,7 +36,7 @@
                       :src="require('@/assets/images/customer.jpg')" height="200px">
                     </v-img>
                     <v-card-actions>
-                      <v-btn flat color="orange" @click="viewMovies">View Details</v-btn>
+                      <v-btn class="white--text" flat color="red darken-4" @click="viewMovies">View Movies</v-btn>
                     </v-card-actions>
                   </v-card>
                 </v-col>

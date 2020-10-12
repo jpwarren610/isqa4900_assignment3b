@@ -14,20 +14,20 @@
           </blockquote>
         </v-col>
         <v-col  cols="12" md="10" lg="10" align="center" justify="center">
-          <v-alert v-if="showMsg === 'new'"
+          <v-alert class="white--text" color="red darken-4" v-if="showMsg === 'new'"
                    dismissible
                    :value="true"
                    type="success"
           >
             New movie has been added.
           </v-alert>
-          <v-alert v-if="showMsg === 'update'" dismissible
+          <v-alert class="white--text" color="red darken-4" v-if="showMsg === 'update'" dismissible
                    :value="true"
                    type="success"
           >
             Movie information has been updated.
           </v-alert>
-          <v-alert v-if="showMsg === 'deleted'" dismissible
+          <v-alert class="white--text" color="red darken-4" v-if="showMsg === 'deleted'" dismissible
                    :value="true"
                    type="success"
           >
@@ -98,7 +98,7 @@
                   </v-row>
                 </template>     
               </v-data-iterator>  
-              <v-btn class="blue mt-4 white--text" @click="addNewMovie">Add Movie</v-btn>  
+              <v-btn class="red darken-4 mt-4 white--text" @click="addNewMovie">Add Movie</v-btn>  
         </v-col>  
       </v-row>
     </v-container>  
